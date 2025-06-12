@@ -62,7 +62,7 @@ services:
     - database
     restart: on-failure
     ports:
-      - "8080:80"
+      - "8085:80"
 
   proxy:
     image: nginx:latest
